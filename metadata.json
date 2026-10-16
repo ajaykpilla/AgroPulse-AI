@@ -1,0 +1,6 @@
+{
+  "name": "AgroPulse Ecosystem",
+  "description": "Closed-loop agritech and 15-minute quick-commerce ecosystem featuring Krishi Farmer Advisory, Command Center Weather & Godown Ledger, and Express Storefront.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
