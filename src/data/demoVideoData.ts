@@ -28,7 +28,7 @@ export const FOUR_MINUTE_DEMO_SCENES: DemoScene[] = [
     persona: "Overview",
     focusTag: "Closed-Loop Agritech & Quick-Commerce",
     narrationVoiceover:
-      "Welcome to AgroPulse — the unified closed-loop ecosystem connecting rural smallholder farmers with urban quick-commerce consumers. Today, Indian farmers lose up to 40% of their produce to supply chain intermediaries, while urban consumers pay hefty markups for produce harvested days ago. AgroPulse completely re-engineers this with three coordinated personas: Krishi Farmer Advisory, the Command Center Operations Engine, and Express 15-minute Farm-to-Doorstep Delivery with our signature 1-Year Harvest Pass.",
+      "Welcome to AgroPulse: the radical, closed-loop ecosystem shattering the broken agriculture paradigm. While rural farmers haemorrhage 40 pct of their yield to middlemen, urban consumers endure inflated costs for stale produce. AgroPulse obliterates this disparity. We integrate three power-platforms: Krishi Farmer Intelligence, the Command Center Operations Engine, and Express 15-minute Farm-to-Doorstep Delivery. This is not just agritech—this is the total restoration of supply chain equity, delivering 20 pct lower consumer costs and 35 pct higher net farmer earnings.",
     uiActionPrompt: "Introducing the 3-Persona Top Navigation switcher and ecosystem metrics.",
     targetMode: "krishi",
     keyTakeaways: [
@@ -46,7 +46,7 @@ export const FOUR_MINUTE_DEMO_SCENES: DemoScene[] = [
     persona: "AgroPulse Krishi (Farmer)",
     focusTag: "Zero-Cost Organic Remediation & Voice AI",
     narrationVoiceover:
-      "Here in AgroPulse Krishi Mode, smallholders like Narsimha Reddy access vernacular, voice-first intelligence in Telugu, Hindi, or Marathi. When a farmer notices leaf spotting after heavy rain, they snap a leaf photo. AgroPulse's multimodal AI instantly identifies early fungal leaf spot and prescribes a zero-cost organic remedy using fermented sour buttermilk and neem spray, saving ₹2,400 per acre in chemical fungicides. Simultaneously, the farmer can listen aloud to the vernacular advisory powered by Gemini Text-to-Speech.",
+      "Inside AgroPulse Krishi, we empower smallholders with vernacular, voice-first, high-precision intelligence. When critical threats appear, like leaf spot post-monsoon, our multimodal AI doesn't just detect it—it neutralizes it. We prescribe zero-cost, regenerative remedies—like fermented buttermilk and neem—instantly eliminating synthetic fungicide dependence. This is pure economic liberation, saving Rs.2,400 per acre while certifying fields as organic. This is precision farming, spoken in the farmer’s native language.",
     uiActionPrompt: "Demonstrating the AI Soil & Leaf Scanner with zero-cost remediation and Gemini TTS audio readout.",
     targetMode: "krishi",
     keyTakeaways: [
@@ -64,7 +64,7 @@ export const FOUR_MINUTE_DEMO_SCENES: DemoScene[] = [
     persona: "AgroPulse Krishi (Farmer)",
     focusTag: "70-80% Liquidity Advances & Parametric Weather Shield",
     narrationVoiceover:
-      "Farmers no longer need to distress-sell during harvest gluts. By depositing their produce into decentralized solar cold godowns, farmers receive an electronic warehouse receipt and an instant 70 to 80 percent cash advance credited to their bank via IMPS. Even better, our investmentShield parametric micro-insurance continuously monitors ISRO satellite radar and IMD rainfall APIs. When unseasonal rainfall exceeds 35 mm/hour or dry spells cross 14 days, payouts trigger automatically without a single paper claim form.",
+      "Distress selling is officially obsolete. We have decentralized the cold chain. Farmers store harvest at peak quality in solar-powered godowns, instantly securing electronic warehouse receipts—and with them, an immediate 80 pct liquidity advance via IMPS. And our protection? Unmatched. investmentShield constantly monitors ISRO satellite telemetry; the moment unseasonal rainfall or drought thresholds are breached, calamity insurance payouts trigger automatically—instantly. No claims. No paperwork. Total financial resilience.",
     uiActionPrompt: "Simulating an automated satellite calamity payout trigger and generating an electronic warehouse receipt with a 78% liquidity advance.",
     targetMode: "krishi",
     keyTakeaways: [
@@ -82,7 +82,7 @@ export const FOUR_MINUTE_DEMO_SCENES: DemoScene[] = [
     persona: "AgroPulse Express (Consumer)",
     focusTag: "15-Min Delivery SLA & Demand-First Harvest Pass",
     narrationVoiceover:
-      "Now, let's explore AgroPulse Express for urban consumers, where fresh produce is delivered in under 15 minutes with complete farm-to-doorstep traceability. By scanning the QR traceability passport, customers instantly view the origin farmer profile, exact harvest timestamp, and NABL lab-verified soil mineral report. Even more transformative is our 1-Year Harvest Pass importer: consumers upload past quick-commerce order history, and AgroPulse AI projects annual staple pantry needs, locking wholesale farm-direct prices for 12 months with complete inflation protection and saving over fourteen thousand two hundred rupees a year.",
+      "Welcome to AgroPulse Express: the uncompromising standard in quick-commerce. We deliver harvest-fresh produce in under 15 minutes, with total, unassailable traceability. Scan any QR passport to verify the farmer, harvest timestamp, and soil health report. The revolution, however, is our 1-Year Harvest Pass. Our AI analyzes your consumption habits and secures your annual staples at wholesale, farm-direct rates. We protect you from inflation, saving you over Rs.14,200 annually, while guaranteeing farmers a market for their entire yield.",
     uiActionPrompt: "Walking through 15-minute checkout, traceability passport modal, and importing quick-commerce order history in HarvestPassImporter.",
     targetMode: "express",
     keyTakeaways: [
@@ -100,7 +100,7 @@ export const FOUR_MINUTE_DEMO_SCENES: DemoScene[] = [
     persona: "AgroPulse Command Center (Admin)",
     focusTag: "Supply Analytics & Forward Production Engine",
     narrationVoiceover:
-      "Finally, the AgroPulse Command Center unifies the entire closed-loop ecosystem. Urban consumer demand from Harvest Passes feeds directly into our forward supply analytics engine, granting rural farmers guaranteed pre-planting sowing quotas and eliminating crop gluts. Combined with 50-year ERA5 weather reanalysis and ground NGO partnerships with PRADAN, BAIF, and Digital Green, AgroPulse delivers 35% higher net earnings for farmers and 20% lower costs for urban consumers in one sustainable platform.",
+      "Finally, the AgroPulse Command Center is the cerebral cortex of this entire ecosystem. Urban Harvest Pass demand flows directly into our predictive analytics engine, dictating guaranteed, pre-planting sowing quotas. We have eradicated crop gluts and waste before seeds ever hit the soil. Backed by 50-year climate reanalysis and reinforced by ground partnerships with PRADAN, BAIF, and Digital Green, we have architected a system of permanent prosperity. Fair farmer earnings, affordable urban food, zero waste—the complete systemic solution.",
     uiActionPrompt: "Reviewing the Supply Analytics ledger showing demand quotas allocated to farmer cooperatives and the AI Executive Risk Audit.",
     targetMode: "admin",
     keyTakeaways: [

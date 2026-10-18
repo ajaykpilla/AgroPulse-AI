@@ -55,7 +55,7 @@ const SCENES = [
     timestampRange: "0:00 - 0:45",
     activeTab: "overview",
     spokenVoiceover:
-      "Welcome to AgroPulse, the unified closed-loop ecosystem connecting rural smallholder farmers with urban quick-commerce consumers. Today, Indian farmers lose up to forty percent of their produce to supply chain intermediaries, while urban consumers pay hefty markups for produce harvested days ago. AgroPulse completely re-engineers this with three coordinated personas: Krishi Farmer Advisory, the Command Center Operations Engine, and Express fifteen minute Farm to Doorstep Delivery with our signature one-year Harvest Pass. We deliver minus twenty percent lower consumer cost and plus thirty-five percent higher farmer net earnings.",
+      "Welcome to AgroPulse: the radical, closed-loop ecosystem shattering the broken agriculture paradigm. While rural farmers haemorrhage 40 pct of their yield to middlemen, urban consumers endure inflated costs for stale produce. AgroPulse obliterates this disparity. We integrate three power-platforms: Krishi Farmer Intelligence, the Command Center Operations Engine, and Express 15-minute Farm-to-Doorstep Delivery. This is not just agritech—this is the total restoration of supply chain equity, delivering 20 pct lower consumer costs and 35 pct higher net farmer earnings.",
     subLine1: "Welcome to AgroPulse: the unified ecosystem connecting rural smallholders with urban consumers.",
     subLine2: "Eliminates middlemen: delivering minus 20 pct lower consumer cost and plus 35 pct higher net realization.",
     valueSummary: "Farmer: plus 35 pct Net Income | Consumer: minus 20 pct Cost | 15-Min Solar Freshness",
@@ -276,7 +276,7 @@ const SCENES = [
     timestampRange: "0:45 - 1:40",
     activeTab: "krishi",
     spokenVoiceover:
-      "Here in AgroPulse Krishi Mode, smallholders like Narsimha Reddy access vernacular, voice-first intelligence. When a farmer notices leaf spotting after heavy rain, they snap a leaf photo. AgroPulse multimodal AI instantly identifies early fungal leaf spot and prescribes a zero-cost organic remedy using fermented sour buttermilk and neem spray, saving twenty-four hundred rupees per acre in chemical fungicides. Simultaneously, the farmer can listen aloud to vernacular audio advisory, reducing chemical expenditure to zero rupees while earning certified organic status.",
+      "Inside AgroPulse Krishi, we empower smallholders with vernacular, voice-first, high-precision intelligence. When critical threats appear, like leaf spot post-monsoon, our multimodal AI doesn't just detect it—it neutralizes it. We prescribe zero-cost, regenerative remedies—like fermented buttermilk and neem—instantly eliminating synthetic fungicide dependence. This is pure economic liberation, saving Rs.2,400 per acre while certifying fields as organic. This is precision farming, spoken in the farmer’s native language.",
     subLine1: "AgroPulse Krishi Mode: Vernacular voice-first intelligence in Telugu, Hindi and Marathi for smallholders.",
     subLine2: "Multimodal AI diagnoses leaf diseases instantly, prescribing zero-cost organic recipes saving Rs.2,400 per acre.",
     valueSummary: "Farmer Value: Rs.0 Chemical Spend | Instant Voice AI | Saves Rs.2,400 per acre in Fungicides",
@@ -455,7 +455,7 @@ const SCENES = [
     timestampRange: "1:40 - 2:30",
     activeTab: "krishi",
     spokenVoiceover:
-      "Farmers no longer need to distress-sell during harvest gluts. By depositing their produce into decentralized solar cold godowns, farmers receive an electronic warehouse receipt and an instant seventy to eighty percent cash advance credited to their bank via IMPS. Even better, our investmentShield parametric micro-insurance continuously monitors ISRO satellite radar and IMD rainfall APIs. When unseasonal rainfall exceeds thirty-five millimeters per hour or dry spells cross fourteen days, insurance payouts trigger automatically with zero paperwork.",
+      "Distress selling is officially obsolete. We have decentralized the cold chain. Farmers store harvest at peak quality in solar-powered godowns, instantly securing electronic warehouse receipts—and with them, an immediate 80 pct liquidity advance via IMPS. And our protection? Unmatched. investmentShield constantly monitors ISRO satellite telemetry; the moment unseasonal rainfall or drought thresholds are breached, calamity insurance payouts trigger automatically—instantly. No claims. No paperwork. Total financial resilience.",
     subLine1: "Decentralized Solar Cold Godowns provide electronic warehouse receipts and 78 pct instant liquidity advances.",
     subLine2: "investmentShield monitors satellite radar and rainfall data, automatically triggering calamity payouts.",
     valueSummary: "Farmer Value: 78 pct Cash Advance (Rs.93,600 IMPS) | Zero Distress Sale | Auto Calamity Insurance",
@@ -626,7 +626,7 @@ const SCENES = [
     timestampRange: "2:30 - 3:20",
     activeTab: "express",
     spokenVoiceover:
-      "Now, let's explore AgroPulse Express for urban consumers, where fresh produce is delivered in under 15 minutes with complete farm-to-doorstep traceability. By scanning the QR traceability passport, customers instantly view the origin farmer profile, exact harvest timestamp, and NABL lab-verified soil mineral report. Even more transformative is our 1-Year Harvest Pass importer: consumers upload past quick-commerce order history, and AgroPulse AI projects annual staple pantry needs, locking wholesale farm-direct prices for 12 months with complete inflation protection and saving over fourteen thousand two hundred rupees a year.",
+      "Welcome to AgroPulse Express: the uncompromising standard in quick-commerce. We deliver harvest-fresh produce in under 15 minutes, with total, unassailable traceability. Scan any QR passport to verify the farmer, harvest timestamp, and soil health report. The revolution, however, is our 1-Year Harvest Pass. Our AI analyzes your consumption habits and secures your annual staples at wholesale, farm-direct rates. We protect you from inflation, saving you over Rs.14,200 annually, while guaranteeing farmers a market for their entire yield.",
     subLine1: "AgroPulse Express delivers fresh produce in 14 minutes with complete farm-to-doorstep traceability.",
     subLine2: "1-Year Harvest Pass Importer converts past grocery receipts into 12-month locked wholesale staple subscriptions.",
     valueSummary: "Consumer Value: 14-Min SLA | minus 20 pct Direct Price | QR Farm Passport | Saves Rs.14,200 per Year",
@@ -823,7 +823,7 @@ const SCENES = [
     timestampRange: "3:20 - 4:00",
     activeTab: "admin",
     spokenVoiceover:
-      "Finally, the AgroPulse Command Center unifies the entire closed-loop ecosystem. Urban consumer demand from Harvest Passes feeds directly into our forward supply analytics engine, granting rural farmers guaranteed pre-planting sowing quotas and eliminating crop gluts. Combined with 50-year ERA5 weather reanalysis and ground NGO partnerships with PRADAN, BAIF, and Digital Green, AgroPulse delivers 35% higher net earnings for farmers and 20% lower costs for urban consumers in one sustainable platform.",
+      "Finally, the AgroPulse Command Center is the cerebral cortex of this entire ecosystem. Urban Harvest Pass demand flows directly into our predictive analytics engine, dictating guaranteed, pre-planting sowing quotas. We have eradicated crop gluts and waste before seeds ever hit the soil. Backed by 50-year climate reanalysis and reinforced by ground partnerships with PRADAN, BAIF, and Digital Green, we have architected a system of permanent prosperity. Fair farmer earnings, affordable urban food, zero waste—the complete systemic solution.",
     subLine1: "Command Center ties urban consumer Harvest Pass demand directly into rural farmer sowing quotas.",
     subLine2: "50-Year ERA5 weather reanalysis engine and NGO ground coordination guarantee fair prosperity and zero waste.",
     valueSummary: "Platform Value: Forward Sowing Quotas | 50-Yr Weather Engine | FPC Working Capital Buffer",
@@ -1087,7 +1087,12 @@ async function main() {
     ].join(",");
 
     const cmd = `ffmpeg -y -loop 1 -t ${scene.duration} -i "${svgPath}" -i "${audioPath}" -vf "${vf}" -c:v libx264 -pix_fmt yuv420p -preset veryfast -crf 23 -c:a aac -b:a 128k -shortest "${clipPath}"`;
-    execSync(cmd, { stdio: "inherit" });
+    try {
+      execSync(cmd, { stdio: "inherit" });
+    } catch (e) {
+      console.error(`Error encoding Scene ${scene.idx}:`, e.message);
+      // Continue or handle gracefully
+    }
 
     // Clean up temporary SVG and audio
     if (fs.existsSync(svgPath)) fs.unlinkSync(svgPath);

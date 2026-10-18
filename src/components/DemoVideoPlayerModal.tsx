@@ -98,6 +98,21 @@ export const DemoVideoPlayerModal: React.FC<DemoVideoPlayerModalProps> = ({
     if (isMuted) return;
     setIsSpeaking(true);
 
+    const useFallback = (reason: string) => {
+      console.warn(`TTS ${reason}, falling back to Web Speech API.`);
+      if ("speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(activeScene.narrationVoiceover);
+        utterance.lang = "en-IN";
+        utterance.rate = 1.05;
+        utterance.onend = () => setIsSpeaking(false);
+        utterance.onerror = () => setIsSpeaking(false);
+        window.speechSynthesis.speak(utterance);
+      } else {
+        setIsSpeaking(false);
+      }
+    };
+
     try {
       const res = await fetch("/api/ai/tts", {
         method: "POST",
@@ -106,6 +121,12 @@ export const DemoVideoPlayerModal: React.FC<DemoVideoPlayerModalProps> = ({
           text: activeScene.narrationVoiceover,
         }),
       });
+
+      if (res.status === 429) {
+        useFallback("quota exceeded (429)");
+        return;
+      }
+
       const data = await res.json();
       if (res.ok && data.audioDataUrl) {
         if (audioRef.current) {
@@ -118,19 +139,9 @@ export const DemoVideoPlayerModal: React.FC<DemoVideoPlayerModalProps> = ({
         await audio.play();
         return;
       }
-      throw new Error("Fallback speech synthesis");
-    } catch {
-      if ("speechSynthesis" in window) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(activeScene.narrationVoiceover);
-        utterance.lang = "en-IN";
-        utterance.rate = 1.05;
-        utterance.onend = () => setIsSpeaking(false);
-        utterance.onerror = () => setIsSpeaking(false);
-        window.speechSynthesis.speak(utterance);
-      } else {
-        setIsSpeaking(false);
-      }
+      throw new Error(data.error || "Speech synthesis failed");
+    } catch (err) {
+      useFallback("request failed");
     }
   };
 
