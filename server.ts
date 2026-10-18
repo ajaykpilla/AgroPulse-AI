@@ -1,6 +1,7 @@
 import express from "express";
 import { createServer as createViteServer } from "vite";
 import path from "path";
+import fs from "fs";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 import { GoogleGenAI, Type } from "@google/genai";
@@ -307,6 +308,26 @@ Return a JSON object with:
       });
     }
   });
+
+  // 5. Consolidated 4-Minute Demo Video Download Endpoint
+  app.get("/api/download-demo-video", (req, res) => {
+    const videoPath = path.join(__dirname, "public", "AgroPulse_Consolidated_4Min_Demo_Walkthrough.mp4");
+    if (fs.existsSync(videoPath)) {
+      res.setHeader(
+        "Content-Disposition",
+        'attachment; filename="AgroPulse_Consolidated_4Min_Demo_Walkthrough.mp4"'
+      );
+      res.setHeader("Content-Type", "video/mp4");
+      return res.sendFile(videoPath);
+    } else {
+      res.status(404).json({
+        error: "Consolidated 4-minute video rendering is in progress. Please retry in a few moments.",
+      });
+    }
+  });
+
+  // Static serving for public assets
+  app.use(express.static(path.join(__dirname, "public")));
 
   // Vite middleware for development or static serving for production
   if (process.env.NODE_ENV !== "production") {
